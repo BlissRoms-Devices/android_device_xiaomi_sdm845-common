@@ -44,9 +44,6 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 endif
 
-# Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
-
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
